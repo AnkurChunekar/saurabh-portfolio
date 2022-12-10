@@ -5,7 +5,9 @@ const heroText =
 
 const Hero = () => {
   return (
-    <h1 className="font-secondary font-bold text-6xl mt-24">{heroText}</h1>
+    <h1 className="font-secondary font-semibold text-5xl mb-24 mt-16 leading-16">
+      {heroText}
+    </h1>
   );
 };
 
