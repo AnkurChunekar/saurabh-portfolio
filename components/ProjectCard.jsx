@@ -1,15 +1,13 @@
 import Image from "next/image";
 import React from "react";
 
-import NourishImg from "../public/images/nourish.png";
-
 const ProjectCard = ({ title, description, subtitle, src }) => {
   return (
     <div className="flex flex-col rounded-lg w-full overflow-hidden hover:-translate-y-4 transition-transform duration-300 ease-in-out">
       <div className="w-full h-auto">
         <Image
           src={src}
-          alt="Logo for the portfolio"
+          alt={`${title} cover image`}
           width="100%"
           height="100%"
           className="object-cover w-full"

@@ -32,7 +32,7 @@ const About = () => {
         <div className="shrink-0 w-2/5">
           <Image
             src={aboutImg}
-            alt="Logo for the portfolio"
+            alt="A candid picture of saurabh"
             className="max-w-full h-auto"
           />
         </div>
