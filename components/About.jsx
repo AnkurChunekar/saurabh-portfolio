@@ -16,7 +16,7 @@ Jänade. Foryn. Gemitåde. Vyryr. Selfiepinne. Krosepyledes. Husk. Vanytivis. De
 
 const About = () => {
   return (
-    <div className="mt-24 pb-10 border-b-2 border-gray-800">
+    <div id="About" className="mt-24 pb-10 border-b-2 border-gray-800">
       <div className="flex my-8 gap-x-16 justify-between">
         <div className="flex flex-col gap-y-8 w-3/5">
           <p className="text-5xl font-semibold font-secondary">

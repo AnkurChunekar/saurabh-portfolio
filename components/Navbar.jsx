@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import logo from "../public/images/sp-logo.png";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -11,7 +12,9 @@ const Navbar = () => {
       </div>
       <ul className="flex flex-row items-center ml-auto text-xl font-semibold gap-x-8 border-l-red-50">
         <li>
-          <button className="p-4">About</button>
+          <Link scroll={false} href="#About" className="p-4">
+            About
+          </Link>
         </li>
         <li>
           <button className="p-4">Contact</button>
