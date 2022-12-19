@@ -1,5 +1,5 @@
-import tutorImg from "../public/images/tutor.png";
-import nourishImg from "../public/images/nourish.png";
+import tutorImg from "../public/images/tutor-svg.svg";
+import nourishImg from "../public/images/nourish-svg.svg";
 
 const PROJECTS = [
   {
