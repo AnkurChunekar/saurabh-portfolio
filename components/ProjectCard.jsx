@@ -2,9 +2,14 @@ import Image from "next/image";
 import React from "react";
 
 const ProjectCard = ({ title, description, subtitle, src, url }) => {
+  const onClick = () => {
+    if (url) window.open(url, "_blank");
+    else alert("Case study will be updated soon.");
+  };
+
   return (
     <div
-      onClick={() => (url ? window.open(url, "_blank") : null)}
+      onClick={onClick}
       className="flex flex-col rounded-lg w-full overflow-hidden hover:-translate-y-4 transition-transform duration-300 ease-in-out hover:cursor-pointer"
     >
       <div className="w-full h-auto">

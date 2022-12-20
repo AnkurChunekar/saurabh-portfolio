@@ -4,9 +4,7 @@ import nourishImg from "../public/images/nourish-svg.svg";
 const PROJECTS = [
   {
     title: "Nourish nutrition program",
-    description: `Nourish is a 3 month online nutrition program created
-        and designed by certified nutritionist Mrunmayee
-        Dixit. Kiss diet burnout goodbye and get started.`,
+    description: `Nourish is an Online Nutrition Program designed and created by certified nutritionist and content creator Mrunmayee Dixit.`,
     subtitle: "Website Design / UI/UX",
     id: "1",
     src: nourishImg,
