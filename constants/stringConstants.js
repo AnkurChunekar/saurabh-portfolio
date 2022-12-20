@@ -10,9 +10,10 @@ const PROJECTS = [
     subtitle: "Website Design / UI/UX",
     id: "1",
     src: nourishImg,
+    url: "https://medium.com/design-bootcamp/ui-ux-case-study-online-nutrition-program-landing-page-design-9d98d8fdb15a",
   },
   {
-    title: "Master Tutor: Mobile App Design",
+    title: "Master Tutor Mobile App",
     description: `Master Tutor is an app where you can hire private tutors in your area without worrying about their qualification and experience.`,
     subtitle: "Mobile App / UI/UX",
     id: "2",

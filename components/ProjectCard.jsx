@@ -1,9 +1,12 @@
 import Image from "next/image";
 import React from "react";
 
-const ProjectCard = ({ title, description, subtitle, src }) => {
+const ProjectCard = ({ title, description, subtitle, src, url }) => {
   return (
-    <div className="flex flex-col rounded-lg w-full overflow-hidden hover:-translate-y-4 transition-transform duration-300 ease-in-out">
+    <div
+      onClick={() => (url ? window.open(url, "_blank") : null)}
+      className="flex flex-col rounded-lg w-full overflow-hidden hover:-translate-y-4 transition-transform duration-300 ease-in-out hover:cursor-pointer"
+    >
       <div className="w-full h-auto">
         <Image
           src={src}
