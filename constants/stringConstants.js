@@ -30,11 +30,17 @@ const PROJECTS = [
 const NAV = [
   {
     id: "1",
+    text: "Resume",
+    href: "https://drive.google.com/file/d/1qZshy0_-3FJ4_8TVSjDmkJKzN1BP964i/view?usp=share_link",
+    target: "_blank",
+  },
+  {
+    id: "2",
     text: "About",
     href: "#About",
   },
   {
-    id: "2",
+    id: "3",
     text: "Contact",
     href: "mailto: designwithsaurabh@gmail.com",
   },
