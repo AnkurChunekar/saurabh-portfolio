@@ -23,6 +23,7 @@ const PROJECTS = [
     description: `PlanCo is an outdoor travel planning agency based in San Fransisco. Its mission is to help people get in touch with nature and explore new places off of the beaten path.`,
     subtitle: "Mobile App / UI/UX",
     id: "3",
+    url: "https://www.figma.com/file/eGNHnvnGzm82L1neWkJ5NI/Planco-web-design-project?node-id=372%3A39&t=6RnLVZL0CYdMpVqz-1",
     src: plancoImg,
   },
 ];
