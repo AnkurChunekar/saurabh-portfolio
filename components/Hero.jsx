@@ -1,7 +1,7 @@
 import React from "react";
 
 const heroText =
-  "Hi! I am Saurabh Chunekar. I am a product designer from Mumbai, India, focused on websites and mobile application design.";
+  "Hey there! I’m a creative Product designer, web designer and no-code developer based in Mumbai, India.";
 
 const Hero = () => {
   return (
