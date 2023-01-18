@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div id="About" className="mt-24 pb-10 border-b-2 border-gray-800">
       <div className="flex my-8 gap-x-16 justify-between">
-        <div className="flex flex-col gap-y-8 w-3/5">
+        <div className="flex flex-col gap-y-8 max-w-xl">
           <p className="text-5xl font-semibold font-secondary">
             Thanks for stopping by!
           </p>
@@ -29,13 +29,13 @@ const About = () => {
           </Button>
         </div>
 
-        <div className="shrink-0 w-2/5">
+        {/* <div className="shrink-0 w-2/5">
           <Image
             src={aboutImg}
             alt="A candid picture of saurabh"
             className="max-w-full h-auto"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

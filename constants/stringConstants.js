@@ -1,9 +1,10 @@
-import tutorImg from "../public/images/tutor.jpg";
-import nourishImg from "../public/images/nourish.jpg";
+import tutorImg from "../public/images/tutor.png";
+import nourishImg from "../public/images/nourish.png";
+import plancoImg from "../public/images/planco.png";
 
 const PROJECTS = [
   {
-    title: "Nourish nutrition program",
+    title: "Nourish: Landing page design",
     description: `Nourish is an Online Nutrition Program designed and created by certified nutritionist and content creator Mrunmayee Dixit.`,
     subtitle: "Website Design / UI/UX",
     id: "1",
@@ -11,11 +12,18 @@ const PROJECTS = [
     url: "https://medium.com/design-bootcamp/ui-ux-case-study-online-nutrition-program-landing-page-design-9d98d8fdb15a",
   },
   {
-    title: "Master Tutor Mobile App",
+    title: "Tutorlink: Mobile app design",
     description: `Master Tutor is an app where you can hire private tutors in your area without worrying about their qualification and experience.`,
     subtitle: "Mobile App / UI/UX",
     id: "2",
     src: tutorImg,
+  },
+  {
+    title: "PlanCo: Web Design",
+    description: `PlanCo is an outdoor travel planning agency based in San Fransisco. Its mission is to help people get in touch with nature and explore new places off of the beaten path.`,
+    subtitle: "Mobile App / UI/UX",
+    id: "3",
+    src: plancoImg,
   },
 ];
 
